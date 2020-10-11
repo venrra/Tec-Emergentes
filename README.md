@@ -1,2 +1,7 @@
 # Tec-Emergetes
-Apuntes y proyectos de la asignatura de Tecnologias Emergentes, del grado en ingienería informática en la universisadad de granada
+
+ Apuntes y proyectos de la asignatura de Tecnologías Emergentes, del grado en ingeniería informática en la universidad de granada
+
+---
+
+## -> [Mini-Guía Arduino](./docs/Guias/arduino.md)
