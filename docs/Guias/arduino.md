@@ -6,32 +6,32 @@
 - Incluye procesador, memoria y Entrada/Salida
 - Normalmente, “empotrados” en otro dispositivo al que controlan
 
-<center>
+<p align="center">
 
-<img src="img/i1.png" width="520.66" height="390" />
+<img src="img/i1.png" align="center" width="520.66" height="390" />
 
-![](img/i1.png | width=100)
-
-</center>
+</p>
 
 ## Polaridad de los led
 
-<center>
 
-![](img/i2.png)
+<p align="center">
 
-</center>
+<img align="center" src= "img/i2.png" />
+
+</p>
 
 ## La placa
 
-<center>
+<p align="center">
 
-<img src="img/arduino2.png" width="500" height="352.5" />
-<img src="img/arduino3.jpg" width="500" height="352.5" />
+<img align="center" src="img/arduino2.png" width="500" height="352.5" />
+<img align="center" src="img/arduino3.jpg" width="500" height="352.5" />
 
-<img src="img/arduino1.png" width="466.66"/>
+</p>
 
-</center>
+
+<img align="right" src="img/arduino1.png" width="466.66"/>
 
 1. **Alimentación USB/5VDC (1 y 2)**:El Arduino UNO puede ser alimentado desde un cable USB de tipo B o mini procedente de tu ordenador o desde una fuente de alimentación entre 6V y 18V.  
 Ademas, la conexión USB sirve para cargar código en la placa de Arduino desde donde se pueden enviar datos de la programación e instrucciones a la placa.
