@@ -5,3 +5,5 @@
 ---
 
 ## -> [Mini-Guía Arduino](./docs/Guias/arduino.md)
+
+## -> [Ejercicos](./docs/ejercicios.md)
