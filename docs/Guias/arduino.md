@@ -14,22 +14,16 @@
 
 ## Polaridad de los led
 
-
 <p align="center">
-
 <img align="center" src= "img/i2.png" />
-
 </p>
 
 ## La placa
 
 <p align="center">
-
 <img align="center" src="img/arduino2.png" width="500" height="352.5" />
 <img align="center" src="img/arduino3.jpg" width="500" height="352.5" />
-
 </p>
-
 
 <img align="right" src="img/arduino1.png" width="466.66"/>
 
@@ -275,8 +269,6 @@ void setup(){
    - RX Arduino recibiendo
    - TX Arduino transmitiendo
 
-<center>
-
-![](img/i3.png)
-
-</center>
+<p align="center">
+<img align="center" src="img/i3.png" width="500" height="352.5" />
+</p>
