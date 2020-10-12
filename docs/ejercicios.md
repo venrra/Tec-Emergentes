@@ -19,3 +19,5 @@ Cuando la temperatura llegue a cierto umbral de voltaje (entre 0 y 1024) que nos
 decidamos, se conectarán a la vez el diodo led y el motor que puede tener unas aspas
 de ventilador en su eje para enfriar la ntc. Además se deberá visionar el valor de
 voltaje en la entrada analógica (valor entre 0 y 1024) en una consola en el PC
+
+-> [Solución](./ejercicios)
