@@ -10,7 +10,7 @@
 
 - [x] SOS con zumbador. Se trata de un zumbador que en código morse (pitidos largos/cortos) especifica una palabra, en nuestro caso SOS. Para el que no lo sepa, la S son tres señales acústicas de corta duración y la O tres señales acústica de larga duración. El zumbador debe estar conectado al pin 13, los pitidos cortos tendrán una duración de 100 ms y los largos 300 ms. Entre letra y letra debe pasar un tiempo de 300 ms y entre SOSs debe haber un tiempo de 1000 ms. Nota: Debes usar variables para guardar los tiempos que vas a usar.
 
-- [ ] Secuencia de leds con pulsador. Se trata de encender y apagar 4 leds secuencialmente al accionar un pulsador. El pulsador debe estar conectado al pin 4, y los leds a los pines 5,6,7 y 8. Se deben encender y posteriormente apagar los leds desde el pin 5 al 8, con un tiempo de duración de encendido y apagado de 200 milisegundos. Nota: la secuencia principal del programa debe estar reproducida en una función a la que llamará el programa principal.
+- [x] Secuencia de leds con pulsador. Se trata de encender y apagar 4 leds secuencialmente al accionar un pulsador. El pulsador debe estar conectado al pin 4, y los leds a los pines 5,6,7 y 8. Se deben encender y posteriormente apagar los leds desde el pin 5 al 8, con un tiempo de duración de encendido y apagado de 200 milisegundos. Nota: la secuencia principal del programa debe estar reproducida en una función a la que llamará el programa principal.
 
 - [ ] Termostato. Se trata de un dispositivo que haga funcionar un motor y un led cuando
 la temperatura supera cierto umbral. Para ello conectaremos una ntc (sensor térmico)
