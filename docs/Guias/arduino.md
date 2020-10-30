@@ -1,10 +1,10 @@
 # Mini-guía Arduino
 
-## concepto micro-controlador
+## Concepto Micro-controlador
 
 - Es un computador en un solo chip
 - Incluye procesador, memoria y Entrada/Salida
-- Normalmente, “empotrados” en otro dispositivo al que controlan
+- Son "sistemas empotrados", es decir, no suelen trabajar de manera independiente, si no en conjunto a otros más complejos
 
 <p align="center">
 
@@ -112,11 +112,11 @@ Ojo: Los pines de salida no dan más de 40 mA de corriente
 - `max(x,y)`: Calcula el máximo de dos números.
 - `min(x,y)`: Calcula el mínimo de dos números
 - `pow(base,expo)`: Calcula potencia. *return->double*
-- `sq(x)`:Calcula el cuadrado de un número
-- `sqrt()`:Raíz cuadrada
-- `cos(rad)`:Coseno de un ángulo (en radianes). Resultado [-1,1].
+- `sq(x)`: Calcula el cuadrado de un número
+- `sqrt()`: Raíz cuadrada
+- `cos(rad)`: Coseno de un ángulo (en radianes). Resultado [-1,1].
 - `sin(rad)`: Seno de un ángulo (en radianes). [-1,1].
-- `tan()`:Tangente de un ángulo (en radianes). [-inf,inf]
+- `tan()`: Tangente de un ángulo (en radianes). [-inf,inf]
 
 ## -> Caracteres
 - `isAlpha()`:
@@ -168,9 +168,9 @@ Ojo: Los pines de salida no dan más de 40 mA de corriente
 
 - `==`, `<`,`>`, `<=`,`>=`,`!=`
 
-### -> booleanos
+### -> Booleanos
 
-- `!` no lógico
+- `!` not lógico
 - `&&` and lógico
 - `||` or lógico
 
@@ -181,12 +181,15 @@ Ojo: Los pines de salida no dan más de 40 mA de corriente
 ## Tipos básicos
 
 ```Arduino
-boolean variableName; //Boolean
-int variableName; //Integer
-char variableName; //Character
-stringName [ ]; //String
+boolean variableName;   //Boolean
+int     variableName;   //Integer
+char    variableName;   //Character
+
+String  variableName;   //String
+// Nota, String funciona como String(value), o String(value,base)
 // muy parecido a c
 ```
+Mirar el tipo [String](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/)
 
 - Constantes se define con `const`
 
