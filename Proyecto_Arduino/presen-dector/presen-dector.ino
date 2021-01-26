@@ -49,17 +49,23 @@ void loop()
      for(int i=0; i<3;i++){
       uS[i]= sonars[1].ping_median(); // Enviar ping, obtener tiempo de ping en microsegundos uS
       cm[i] = uS[i] / US_ROUNDTRIP_CM;
-      String s = "Ping: " + (String)i + ": " + (String)cm[i] + "cm";
-      Serial.println(s);   
+      //String s = "Ping: " + (String)i + ": " + (String)cm[i] + "cm";
+      //Serial.println(s);   
      }
      int min_cm = min(cm[0],min(cm[1],cm[2]));
 
+     Serial.println("Ping: " + (String)min_cm + "cm");
+      
      pirVal = digitalRead(PIRpin);
+
+     Serial.println("Esatdio: "+(String)pirVal);
+     
      
      if(min_cm !=0 and pirVal==HIGH){
         pirState = HIGH;
         int frecuencia = FRECUENCIA_MAX-((FRECUENCIA_MAX-FRECUENCIA_MIN)/(MAX_DISTANCE-1)) * min_cm + FRECUENCIA_MIN;
         NewTone(PINBUZZER, frecuencia);
+        Serial.println("presencia");
      }else if(min_cm !=0 and pirVal==LOW and pirState == HIGH){
         pirState = LOW;
         int frecuencia = FRECUENCIA_MAX-((FRECUENCIA_MAX-FRECUENCIA_MIN)/(MAX_DISTANCE-1)) * min_cm + FRECUENCIA_MIN;
