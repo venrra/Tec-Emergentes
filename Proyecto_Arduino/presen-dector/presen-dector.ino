@@ -1,3 +1,6 @@
+//MANUEL HIDALGO CARMONA
+//2020-21 ETSIIT
+
 #include <NewPing.h>
 #include <NewTone.h>
 
